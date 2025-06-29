@@ -8,4 +8,64 @@ Cor 02: #3F3768
 Cor 03: #FF5A35
 */
 
+:root {
+    --cor01: #231E3C;
+    --cor02: #3F3768;
+    --cor03: #FF5A35;
+}
 
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cor01);
+    height: 100vh;
+    width: 100vw;
+}
+
+
+main {
+    position: relative;
+    width: 100vw;    
+    height: 100vh;
+  
+}
+
+#login {
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: white;
+    width: 270px;
+    height: 500px;
+    overflow: hidden;
+    box-shadow: 1px 1px 10px  black;
+}
+
+#login > #img {
+    display: block;
+    background-color: var(--cor01);
+    background-image: url(../imagens/img_phone.jpg);
+    background-size: cover;
+    background-position: center left;
+    background-attachment: fixed;
+    height: 250px;
+}
+
+#formulario {
+    display: block;
+    padding: 10px;
+}
+
+#formulario h1, p {
+    text-align: center;
+    padding: 10px;
+   
+}
