@@ -54,6 +54,7 @@ main {
     background-color: var(--cor01);
     background-image: url(../imagens/img_phone.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center left;
     background-attachment: fixed;
     height: 250px;
