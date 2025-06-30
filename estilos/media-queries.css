@@ -18,7 +18,7 @@ body {
 #login {
 
         width: 90vw;
-        
+        height: 280px;
     }
 
 #login > #img {
@@ -49,7 +49,7 @@ body {
     #login {
 
         width: 900px;
-        
+        height: 300px;
     }
 
 #login > #img {
